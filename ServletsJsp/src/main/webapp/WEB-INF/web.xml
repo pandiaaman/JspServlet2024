@@ -9,4 +9,17 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  
+  
+  <!-- servlet declaration  -->
+  <servlet>
+  	<servlet-name>firstServlet</servlet-name>
+  	<servlet-class>com.servletsjsp.servlets.FirstServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>firstServlet</servlet-name>
+  	<url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
