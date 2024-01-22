@@ -9,4 +9,29 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  
+  
+  <!-- servlet declaration  -->
+  <servlet>
+  	<servlet-name>firstServlet</servlet-name>
+  	<servlet-class>com.servletsjsp.servlets.FirstServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>firstServlet</servlet-name>
+  	<url-pattern>/first</url-pattern>
+  </servlet-mapping>
+  
+  <!-- second servlet -->
+  
+  <servlet>
+  	<servlet-name>secondServlet</servlet-name>
+  	<servlet-class>com.servletsjsp.servlets.SecondServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>secondServlet</servlet-name>
+  	<url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
