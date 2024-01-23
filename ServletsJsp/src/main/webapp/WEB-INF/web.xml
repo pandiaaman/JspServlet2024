@@ -34,4 +34,16 @@
   	<url-pattern>/second</url-pattern>
   </servlet-mapping>
   
+  
+  <!-- register servlet -->
+  <servlet>
+  	<servlet-name>registerServlet</servlet-name>
+  	<servlet-class>com.servletsjsp.servlets.RegisterServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>registerServlet</servlet-name>
+  	<url-pattern>/registerServlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
